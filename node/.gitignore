@@ -1,0 +1,26 @@
+# logs 
+_logs/*
+!_logs/.gitkeep
+
+# debug 
+_debug/*
+!_debug/.gitkeep
+
+# test auto (vitest)
+_test/auto/*
+!_test/auto/.gitkeep
+!_test/auto/elephants-dream-trimmed.mp4
+
+# test manual (cli)
+!_test/manual/*
+
+
+# storage
+storage/main/*
+!storage/main/.gitkeep
+
+storage/cdn1/*
+!storage/cdn1/.gitkeep
+
+storage/cdn2/*
+!storage/cdn2/.gitkeep
